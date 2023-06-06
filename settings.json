@@ -1,0 +1,304 @@
+{
+  // emmet
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "javascriptreact": "javascriptreact",
+    "typescriptreact": "typescriptreact",
+  },
+  // javascript
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // typescript
+  "typescript.tsserver.log": "off",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.suggest.autoImports": true,
+  // prisma
+  "[prisma]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  // files n folders
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+  "files.exclude": {
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/__pycache__": true
+  },
+  // explorer
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "window.menuBarVisibility": "compact",
+  // editor
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.stickyScroll.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "Cascadia Code", // <== Fonte
+  "editor.fontLigatures": true, // <== Fonte com ligaduras
+  "editor.fontSize": 16, // <== Tamanho da fonte
+  "editor.acceptSuggestionOnCommitCharacter": false, // <== Não aceitar sugestão ao digitar
+  "editor.fontWeight": 325,
+  "editor.lineHeight": 28, // <== Altura da linha
+  "editor.tabSize": 2, // <== Tamanho da tabulação
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false, // <== Desabilitar dicas de parâmetros
+  "editor.renderLineHighlight": "gutter", // <== Destacar linha atual
+  "editor.suggestSelection": "first", // <== Selecionar a primeira sugestão
+  "editor.accessibilitySupport": "off", // <== Desabilitar suporte a acessibilidade
+  "editor.rulers": [
+    120,
+    120
+  ],
+  // extensions
+  "extensions.ignoreRecommendations": true, // <== Não mostrar recomendações de extensões
+  "extensions.autoCheckUpdates": true, // <== Verificar atualizações automaticamente
+  // eslint n prettier
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.inlineSuggest.enabled": true,
+  "git.confirmSync": false,
+  "editor.semanticHighlighting.enabled": false,
+  "eslint.validate": [
+    "javascript",
+    "typescriptreact",
+    "javascriptreact"
+  ],
+  "[javascript]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  // workbench
+  "workbench.tree.indent": 20,
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.editor.labelFormat": "short", // <== Formato do nome do arquivo
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "symbols",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.colorTheme": "Tokyo Night Frameless",
+  // material-icon-theme
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
+  },
+  "material-icon-theme.files.associations": {
+    "tsconfig.json": "tune",
+    "*.webpack.js": "webpack",
+    "*.proto": "3d",
+    "ormconfig.json": "database"
+  },
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#6272a4",
+  // terminal
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  // git
+  "git.openRepositoryInParentFolders": "always",
+  "git.enableSmartCommit": true,
+  "git.allowForcePush": false,
+  "git.autofetch": true,
+  // gitlens
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  // live server
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  // others
+  "screencastMode.onlyKeyboardShortcuts": true,
+  //discord presence
+  "discord.detailsIdling": "👀 Procurando nos Arquivos...",
+  "discord.detailsEditing": "☕ {file_name} com {file_size}",
+  "discord.largeImageIdling": "⏲️ Código, Café e Pomodoro",
+  "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
+  "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
+  "discord.lowerDetailsIdling": "☕ Hora do café",
+  "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
+  // security
+  "security.workspace.trust.untrustedFiles": "newWindow", // <== Abrir arquivos não confiáveis em uma nova janela
+  // others
+  "update.mode": "start",
+  "window.commandCenter": false,
+  "breadcrumbs.enabled": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // code spell
+  "cSpell.language": "en,pt_BR",
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "cSpell.userWords": [
+    "bootcamp",
+    "chakra",
+    "checkin",
+    "checkins",
+    "clsx",
+    "Codegen",
+    "datadog",
+    "Datetime",
+    "dayjs",
+    "Dotenv",
+    "esbuild",
+    "fastify",
+    "Fastify",
+    "feedbackwidget",
+    "ffprobe",
+    "Hono",
+    "IUGU",
+    "jamjuree",
+    "jupiter",
+    "liveblocks",
+    "LIVEBLOCKS",
+    "middlewares",
+    "mixpanel",
+    "monaco",
+    "nestjs",
+    "omni",
+    "Omni",
+    "Onboarded",
+    "pallas",
+    "postgres",
+    "postgresql",
+    "prefetch",
+    "reactflow",
+    "roboto",
+    "rocketseat",
+    "rotion",
+    "rsxp",
+    "Sandpack",
+    "shiki",
+    "skylab",
+    "sqlite",
+    "supergraph",
+    "svgr",
+    "sympla",
+    "tabnine",
+    "tailwindcss",
+    "textblock",
+    "tiptap",
+    "trpc",
+    "TRPC",
+    "tsup",
+    "unfollow",
+    "Unfollow",
+    "unform",
+    "Unform",
+    "unmark",
+    "upsert",
+    "Usuario",
+    "WEBPUSH"
+  ]
+  // github copilot
+  // "github.copilot.enable": {
+  //   "*": true,
+  //   "yaml": false,
+  //   "plaintext": false,
+  //   "markdown": true,
+  //   "javascript": true,
+  //   "python": true,
+  //   "javascriptreact": true
+  // },
+  // tabnine
+  // "tabnine.experimentalAutoImports" : true,
+}
